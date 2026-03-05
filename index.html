@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Cards</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+
+body{
+background:#f3f3f3;
+padding:80px 150px;
+}
+
+/* CONTAINER */
+
+.blog-container{
+display:flex;
+gap:50px;
+}
+
+/* CARD */
+
+.blog-card{
+width:33.33%;
+}
+
+/* IMAGE */
+
+.blog-image{
+border-radius:18px;
+overflow:hidden;
+margin-bottom:18px;
+}
+
+.blog-image img{
+width:100%;
+height:230px;
+object-fit:cover;
+display:block;
+}
+
+/* META */
+
+.blog-meta{
+display:flex;
+justify-content:space-between;
+align-items:center;
+font-size:14px;
+color:#8a8a8a;
+margin-bottom:10px;
+}
+
+/* SHARE ICON */
+.share-icon{
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:pointer;
+}
+
+.share-icon svg{
+transition:0.25s ease;
+}
+
+.share-icon:hover svg{
+transform:translate(2px,-2px);
+}
+
+/* DIVIDER */
+
+.blog-card hr{
+border:none;
+height:1px;
+background:#e2e2e2;
+margin-bottom:18px;
+}
+
+/* TITLE */
+
+.blog-title{
+font-size:22px;
+font-weight:600;
+line-height:1.4;
+margin-bottom:12px;
+color:#1a1a1a;
+}
+
+/* DESCRIPTION */
+
+.blog-desc{
+font-size:18px;
+color:#7a7a7a;
+line-height:1.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="blog-container">
+
+<!-- CARD 1 -->
+<div class="blog-card">
+
+<div class="blog-image">
+<img src="balls.png">
+</div>
+
+<div class="blog-meta">
+<span>Blog</span>
+
+<span class="share-icon">
+  <svg width="20" height="26" viewBox="0 0 24 24" fill="none">
+    <path d="M15 8V4L23 12L15 20V15.9C8 15.9 4 20 4 20C4 13 13 8 15 8Z" fill="#e64b3c"/>
+  </svg>
+</span>
+
+</div>
+
+<hr>
+
+<h3 class="blog-title">
+Balancing the risks and opportunities of AI-driven procurement
+</h3>
+
+<p class="blog-desc">
+The many benefits AI can bring to procurement organizations are well...
+</p>
+
+</div>
+
+
+<!-- CARD 2 -->
+<div class="blog-card">
+
+<div class="blog-image">
+<img src="pen.png">
+</div>
+
+<div class="blog-meta">
+<span>Blog</span>
+
+<span class="share-icon">
+  <svg width="20" height="26" viewBox="0 0 24 24" fill="none">
+    <path d="M15 8V4L23 12L15 20V15.9C8 15.9 4 20 4 20C4 13 13 8 15 8Z" fill="#e64b3c"/>
+  </svg>
+</span>
+
+</div>
+
+<hr>
+
+<h3 class="blog-title">
+2026 Supply Chain Outlook: 4 Macro Trends Procurement Leaders Mus...
+</h3>
+
+<p class="blog-desc">
+As 2026 approaches, the global economy is settling into a new pattern. Not a crisis...
+</p>
+
+</div>
+
+
+<!-- CARD 3 -->
+<div class="blog-card">
+
+<div class="blog-image">
+<img src="fingerprint.png">
+</div>
+
+<div class="blog-meta">
+<span>Blog</span>
+
+<span class="share-icon">
+  <svg width="20" height="26" viewBox="0 0 24 24" fill="none">
+    <path d="M15 8V4L23 12L15 20V15.9C8 15.9 4 20 4 20C4 13 13 8 15 8Z" fill="#e64b3c"/>
+  </svg>
+</span>
+
+</div>
+
+<hr>
+
+<h3 class="blog-title">
+Ten trends set to transform procurement in 2026
+</h3>
+
+<p class="blog-desc">
+2025 was another year of widespread change and transformation...
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
